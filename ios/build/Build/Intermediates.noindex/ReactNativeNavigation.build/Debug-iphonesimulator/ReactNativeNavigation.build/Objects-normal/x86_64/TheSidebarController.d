@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/sinem_derman/PickApp/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.m \
-  /Users/sinem_derman/PickApp/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
-  /Users/sinem_derman/PickApp/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h
+  /Users/muraterduran/Desktop/yedek\ PickApp/PickApp2/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.m \
+  /Users/muraterduran/Desktop/yedek\ PickApp/PickApp2/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/muraterduran/Desktop/yedek\ PickApp/PickApp2/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h

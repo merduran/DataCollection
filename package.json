@@ -7,6 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "file:node_modules/jquery",
     "react": "16.2.0",
     "react-native": "0.53.0",
     "react-native-linear-gradient": "^2.4.0",

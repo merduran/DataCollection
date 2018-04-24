@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sinem_derman/PickApp/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/sinem_derman/PickApp/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/muraterduran/Desktop/yedek\ PickApp/PickApp2/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/muraterduran/Desktop/yedek\ PickApp/PickApp2/node_modules/react-native/React/Base/RCTManagedPointer.h

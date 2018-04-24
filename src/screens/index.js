@@ -1,4 +1,4 @@
-import {Navigation, ScreenVisibilityListener} from 'react-native-navigation';
+import { Navigation, ScreenVisibilityListener } from 'react-native-navigation';
 
 // import Types from './NavigationTypes';
 // import Actions from './Actions';
@@ -8,6 +8,15 @@ import {Navigation, ScreenVisibilityListener} from 'react-native-navigation';
 // import Drawer from './types/Drawer';
 // import ListScreen from './types/ListScreen';
 import HomeScreen from './HomeScreen';
+import ExampleScreen from './ExampleScreen';
+import Notification from './Notification';
+import FacilityButtonBasketball from './FacilityButtonBasketball';
+import FacilityButtonTrack from './FacilityButtonTrack';
+import FacilityButtonGym from './FacilityButtonGym';
+import FacilityButtonPool from './FacilityButtonPool';
+
+
+
 // import LightBox from './types/LightBox';
 // import Notification from './types/Notification';
 // import Modal from './types/Modal';
@@ -30,21 +39,28 @@ export function registerScreens() {
     // Navigation.registerComponent('example.Types', () => Types);
     // Navigation.registerComponent('example.Actions', () => Actions);
     // Navigation.registerComponent('example.Transitions', () => Transitions);
-    //
+    
     // Navigation.registerComponent('example.Types.Push', () => Push);
     // Navigation.registerComponent('example.Types.Drawer', () => Drawer);
     // Navigation.registerComponent('example.Types.Screen', () => Drawer);
     // Navigation.registerComponent('example.Types.ListScreen', () => ListScreen);
+
     Navigation.registerComponent('PickApp.Screens.HomeScreen', () => HomeScreen);
-    // Navigation.registerComponent('example.Types.Modal', () => Modal);
+    Navigation.registerComponent('PickApp.Screens.ExampleScreen', () => ExampleScreen);
+    Navigation.registerComponent('PickApp.Screens.Notification', () => Notification);
+    Navigation.registerComponent('PickApp.Screens.FacilityButtonBasketball', () => FacilityButtonBasketball);
+    Navigation.registerComponent('PickApp.Screens.FacilityButtonTrack', () => FacilityButtonTrack);
+    Navigation.registerComponent('PickApp.Screens.FacilityButtonGym', () => FacilityButtonGym);
+    Navigation.registerComponent('PickApp.Screens.FacilityButtonPool', () => FacilityButtonPool);
+
+    // Navigation.registerComponent('PickApp.Types.Modal', () => Modal);
     // Navigation.registerComponent('example.Types.LightBox', () => LightBox);
-    // Navigation.registerComponent('example.Types.Notification', () => Notification);
     // Navigation.registerComponent('example.Types.CustomTopBarScreen', () => CustomTopBarScreen);
     // Navigation.registerComponent('example.Types.CustomButtonScreen', () => CustomButtonScreen);
     // Navigation.registerComponent('example.Types.TopTabs', () => TopTabs);
     // Navigation.registerComponent('example.Types.TopTabs.TabOne', () => TabOne);
     // Navigation.registerComponent('example.Types.TopTabs.TabTwo', () => TabTwo);
-    //
+    
     // Navigation.registerComponent('example.Transitions.CollapsingHeader', () => CollapsingHeader);
     // Navigation.registerComponent('example.Transitions.SharedElementTransitions', () => SharedElementTransitions);
     // Navigation.registerComponent('example.Transitions.SharedElementTransitions.Cards', () => Cards);
